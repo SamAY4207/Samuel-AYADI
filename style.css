@@ -13,8 +13,7 @@ h1 {
     font-family: Jaro, normal;
     text-align: center;
     font-size: 60px;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);  /* Contour en rouge */
-    text-stroke: 10px rgb(0, 0, 0);  /* Contour en rouge */
+    
 }
 h1 a {
     color: #8100D1;
@@ -24,14 +23,14 @@ h1 a {
 }
 
 h2 {
-    color: #B500B2;
+    color: #8100D1;
     font-family: Passero one, normal;
     text-align: center;
     font-size: 50px;
 
 }
 h2 a {
-    color: #B500B2;
+    color: #8100D1;
     font-family: Passero One, normal;
     text-align: center;
     font-size: 50px;
@@ -39,34 +38,34 @@ h2 a {
 }
 
 h3 {
-    color: #FF52A0;
+    color: #8100D1;
     font-family: Wellfleet, normal;
     text-align: center;
     font-size: 40px;
 }
 h3 a {
-    color: #FF52A0;
+    color: #8100D1;
     font-family: Wellfleet, normal;
     text-align: center;
     font-size: 40px;
 
 }
 h4 {
-    color: #FFA47F;
+    color: #8100D1;
     font-family: Wellfleet, normal;
     text-align: center;
     font-size: 30px;
 
 }
 h4 a {
-    color: #FFA47F;
+    color: #8100D1;
     font-family: Wellfleet, normal;
     text-align: center;
     font-size: 30px;
 
 }
 li {
-    color: #FFA47F;
+    color: #B500B2;
     font-family: Wellfleet, normal;
     text-align: center;
     border-color: 091413;
@@ -74,7 +73,7 @@ li {
 }
 
 p {
-    color: #FF9AEE;
+    color: #B500B2;
     font-family: Wellfleet, normal;
     text-justify: inter-word;
     font-size: 25px;
@@ -83,7 +82,7 @@ p {
 }
 
 p a {
-    color: #FF9AEE;
+    color: #B500B2;
     font-family: Wellfleet, normal;
     text-justify: inter-word;
     font-size: 25px;
@@ -92,10 +91,14 @@ p a {
 }
 
 a {
-    color: #FF9AEE;
+    color: #B500B2;
     font: glider, normal;
     text-align: center;
     font-size: 25px;
+}
+
+i {
+    color:#8100D1;
 }
 .plum {
     color: #DDA0DD;
@@ -110,12 +113,7 @@ a {
     background-attachment: fixed;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-}
+
 
 
 
@@ -124,7 +122,15 @@ img {
 }
 
 .backpink {
-    background-color: rgba(255, 192, 203, 0.3);
+    background-color: #FF9AEE;
+}
+
+.back1 {
+    background-color: #FFA47F;
+}
+
+.back2 {
+    background-color: #FF9AEE;
 }
 
 .suppuce {
@@ -302,6 +308,14 @@ li {
     margin-top: 1024px;
 }
 
+.mr-16{
+    margin-right: 32px;
+}
+
+.m-16{
+    margin: 16px;
+}
+
 .pb-16{
     padding-top: 16px;
 }
@@ -334,8 +348,8 @@ li {
     padding-bottom: 128px;
 }
 
-.m-16{
-    margin: 16px;
+.p-8 {
+    padding: 8px;
 }
 
 /*CONTAINER */
@@ -371,6 +385,9 @@ li {
     width: 70%;
 }
 
+.w60{
+    width: 60%;
+}
 
 .w50{
     width: 50%;
@@ -399,7 +416,9 @@ li {
     width: 10%;
 }
 
-
+.w1000px{
+    width: 100px;
+}
 /*FLEX GEMINI */
 
 /* La ligne qui contient les deux gros groupes (Infos et Parcours) */
