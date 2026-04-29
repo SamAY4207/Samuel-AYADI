@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Passero+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Passero+One&family=Wellfleet&display=swap');
+
+* {
+    margin: 0 px 5 px;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+h1 {
+    color: #8100D1;
+    font-family: Jaro, normal;
+    text-align: center;
+    font-size: 60px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);  /* Contour en rouge */
+    text-stroke: 10px rgb(0, 0, 0);  /* Contour en rouge */
+}
+h1 a {
+    color: #8100D1;
+    font-family: Jaro, normal;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: #B500B2;
+    font-family: Passero one, normal;
+    text-align: center;
+    font-size: 50px;
+
+}
+h2 a {
+    color: #B500B2;
+    font-family: Passero One, normal;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+h3 {
+    color: #FF52A0;
+    font-family: Wellfleet, normal;
+    text-align: center;
+    font-size: 40px;
+}
+h3 a {
+    color: #FF52A0;
+    font-family: Wellfleet, normal;
+    text-align: center;
+    font-size: 40px;
+
+}
+h4 {
+    color: #FFA47F;
+    font-family: Wellfleet, normal;
+    text-align: center;
+    font-size: 30px;
+
+}
+h4 a {
+    color: #FFA47F;
+    font-family: Wellfleet, normal;
+    text-align: center;
+    font-size: 30px;
+
+}
+li {
+    color: #FFA47F;
+    font-family: Wellfleet, normal;
+    text-align: center;
+    border-color: 091413;
+
+}
+
+p {
+    color: #FF9AEE;
+    font-family: Wellfleet, normal;
+    text-justify: inter-word;
+    font-size: 25px;
+    line-height: 200%;
+
+}
+
+p a {
+    color: #FF9AEE;
+    font-family: Wellfleet, normal;
+    text-justify: inter-word;
+    font-size: 25px;
+    line-height: 200%;
+
+}
+
+a {
+    color: #FF9AEE;
+    font: glider, normal;
+    text-align: center;
+    font-size: 25px;
+}
+.plum {
+    color: #DDA0DD;
+    font-family: Wellfleet, normal;
+    text-align: center;
+
+}
+
+.background-presentation {
+    background-image: url("asset/SG.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+
+
+.bold {
+    font-weight: 600;
+}
+
+.backpink {
+    background-color: rgba(255, 192, 203, 0.3);
+}
+
+.suppuce {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+.backfont {
+    
+    background-color:#000000a9;
+    border: #000000a2;
+    width: fit-content;
+    margin: 0 auto 15px auto;
+    padding: 0px 15px;
+    border-radius: 4px;  
+}
+
+.btn {
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    padding: 10px 10px;
+    margin: auto 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.text-justify{
+    text-justify: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+/* FLEEEEX */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start{
+    align-items: start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start{
+    justify-content: start;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+
+
+.card{
+    width: 30%;
+    padding: 8px;
+}
+
+.card2{
+    width: 22%;
+    padding: 8px;
+}
+
+.card3{
+    width: 48%;
+    padding: 8px;
+}
+.card4{
+    width: 19%;
+    padding: 8px;
+    
+}
+
+.card4 img {
+    display: block;      /* On force l'image à ne plus se comporter comme du texte */
+    width: 100% !important; /* On force les 100% de la div de 19% */
+    height: auto;
+    margin: 0 auto;      /* On centre si besoin */
+}
+
+.p12{
+    padding: 12px;
+}
+
+/*PADDING MARGIN*/
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+.mt-128{
+    margin-top: 128px;
+}
+
+.mb-128{
+    margin-bottom: 128px;
+}
+
+.mt-256{
+    margin-top: 256px;
+}
+
+.mb-256{
+    margin-bottom: 256px;
+}
+
+.mt-384{
+    margin-top: 384px;
+}
+
+.mb-384{
+    margin-bottom: 384px;
+}
+
+
+.mt-512{
+    margin-bottom: 512px;
+}
+
+.mb-512{
+    margin-bottom: 512px;
+}
+.mt-128{
+    margin-top: 128px;
+}
+
+.mb-1024{
+    margin-bottom: 1024px;
+}
+.mt-1024{
+    margin-top: 1024px;
+}
+
+.pb-16{
+    padding-top: 16px;
+}
+
+.pb-16{
+    padding-bottom: 16px;
+}
+
+.pt-32{
+    padding-top: 32px;
+}
+
+.pb-32{
+    padding-bottom: 32px;
+}
+
+.pt-64{
+    padding-top: 64px;
+}
+
+.pb-64{
+    padding-bottom: 64px;
+}
+
+.pt-128{
+    padding-top: 128px;
+}
+
+.pb-128{
+    padding-bottom: 128px;
+}
+
+.m-16{
+    margin: 16px;
+}
+
+/*CONTAINER */
+
+.container-1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1480{
+    max-width: 1480px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DIMMENSIONS */
+
+.w100{
+    width: 100%;
+}
+
+.w70{
+    width: 70%;
+}
+
+
+.w50{
+    width: 50%;
+}
+
+.w48{
+    width: 48%;
+}
+
+.w40{
+    width: 40%;
+}
+.w30{
+    width: 30%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w20{
+    width: 20%;
+}
+
+.w10{
+    width: 10%;
+}
+
+
+/*FLEX GEMINI */
+
+/* La ligne qui contient les deux gros groupes (Infos et Parcours) */
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Chaque groupe (Infos / Parcours) prend un peu moins de la moitié */
+.card-group {
+    width: 48%;
+}
+
+/* C'est ici que la magie opère pour l'alignement interne */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer à la ligne automatiquement */
+    justify-content: space-between;
+}
+
+/* Chaque petite info prend 48% de la largeur du groupe (donc 2 par ligne) */
+.card-mini {
+    width: 48%; 
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Effet translucide comme sur ton screen */
+    box-sizing: border-box; /* Important pour que le padding ne casse pas le % */
+}
+.backbord-purple{
+    background-color: #8100d146;
+    corner-shape: superellipse(2);
+    border-radius: 100px;
+}
+
+/* On stabilise l'icône dans un carré fixe */
+.icon-wrapper {
+    height: 100px; /* Force la même hauteur pour toutes les icônes */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.icon-wrapper img {
+    max-height: 100%;
+    width: auto;
+}
+
+
+/* Arrières plans */
+
+.background-musique {
+    background-image: url('asset/music.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-anim {
+    background-image: url('asset/Anim/bg/AHO-GIRL.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-bouffe {
+    background-image: url('asset/Bouffe/Miam.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-informatique {
+    background-image: url('asset/Informatique/Informatique.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+.background-dessin {
+    background-image: url('asset/Dessin/Dessin.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+.background-DragonBall {
+    background-image: url('asset/Anim/bg/DragonBall.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-666 {
+    background-image: url('asset/Anim/bg/666.webp');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-Soul {
+    background-image: url('asset/Anim/bg/Soul.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+.background-grand {
+    background-image: url('asset/Anim/bg/Grand.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-Tatami {
+    background-image: url('asset/Anim/bg/Ozu.jpg.webp');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-aho {
+    background-image: url('asset/Anim/bg/AHO.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-excel {
+    background-image: url('asset/Anim/bg/Excel.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-gnosia {
+    background-image: url('asset/Anim/bg/gnosia.webp');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-iruma {
+    background-image: url('asset/Anim/bg/Iruma.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-JV {
+    background-image: url('asset/JV/bg/JV.png');
+    background-size: 100%;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.background-works {
+    background-image: url('asset/JV/bg/works.png');
+    background-size: 55%;
+    width: 100%;
+    background-position: 5% center;
+    background-repeat: no-repeat;
+
+}
+
+.background-mod {
+    background-image: url('asset/JV/bg/mod.png');
+    background-size: 65%;
+    width: 100%;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+
+}
+
+.background-animation {
+    background-image: url('asset/animation-bg.png');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+
+
+}
+
+.tatami{
+   background-image: url('asset/Anim/TatamiGalaxy.png');
+    background-size: 50%;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+.grand{
+   background-image: url('asset/Anim/GrandBlue.avif');
+   background-size: 50%;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.aho{
+   background-image: url('asset/Anim/AhoGirl.jpg');
+    background-size: 50%;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+.excel{
+   background-image: url('asset/Anim/ExcelSaga.jpg');
+    background-size: 50%;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+.gnosia{
+   background-image: url('asset/Anim/Gnosia.webp');
+    background-size: 50%;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.iruma{
+   background-image: url('asset/Anim/IrumaKun.jpeg');
+    background-size: 50%;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dessins{
+    width: 100%;
+    display: inline-flex;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.dessins1{
+    background-image: url(asset/Dessin/Dessins.jpg/Édition/AhoExcel1.jpg)
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dessins2{
+    background-image: url(asset/Dessin/Dessins.jpg/Édition/AhoExcel2.jpg)
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dessins3{
+    background-image: url(asset/Dessin/Dessins.jpg/Édition/Base.jpg)
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.dessins4{
+    background-image: url(asset/Dessin/Dessins.jpg/Édition/Chroma&Moi.jpg)
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
